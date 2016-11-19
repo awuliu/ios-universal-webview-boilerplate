@@ -13,6 +13,7 @@
 		3F9696F01B3455A200CDD77A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9696EF1B3455A200CDD77A /* Images.xcassets */; };
 		3F9696F31B3455A200CDD77A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F9696F11B3455A200CDD77A /* LaunchScreen.xib */; };
 		3F9697091B34835200CDD77A /* web_content in Resources */ = {isa = PBXBuildFile; fileRef = 3F9697081B34835200CDD77A /* web_content */; };
+		928027901DDF417F0075CE98 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 9280278F1DDF417F0075CE98 /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +27,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F9696E31B3455A200CDD77A /* Simple Universal Webview App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Universal Webview App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9696E31B3455A200CDD77A /* sbzl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sbzl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9696E71B3455A200CDD77A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F9696E81B3455A200CDD77A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F9696EA1B3455A200CDD77A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F9696ED1B3455A200CDD77A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F9696EF1B3455A200CDD77A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3F9696F21B3455A200CDD77A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		3F9696F81B3455A200CDD77A /* Simple Universal Webview AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Universal Webview AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9696F81B3455A200CDD77A /* sbzlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sbzlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9696FD1B3455A200CDD77A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F9697081B34835200CDD77A /* web_content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = web_content; sourceTree = "<group>"; };
+		9280278F1DDF417F0075CE98 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		928027A01DE04F880075CE98 /* Simple Universal Webview App copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Simple Universal Webview App copy-Info.plist"; path = "/Volumes/VMware Shared Folders/dev/prj/sbzl/ios-universal-webview-boilerplate/Simple Universal Webview App copy-Info.plist"; sourceTree = "<absolute>"; };
+		928027A11DE08BAA0075CE98 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		928027A21DE08BAB0075CE98 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,14 +67,15 @@
 				3F9696E51B3455A200CDD77A /* Simple Universal Webview App */,
 				3F9696FB1B3455A200CDD77A /* Simple Universal Webview AppTests */,
 				3F9696E41B3455A200CDD77A /* Products */,
+				928027A01DE04F880075CE98 /* Simple Universal Webview App copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		3F9696E41B3455A200CDD77A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F9696E31B3455A200CDD77A /* Simple Universal Webview App.app */,
-				3F9696F81B3455A200CDD77A /* Simple Universal Webview AppTests.xctest */,
+				3F9696E31B3455A200CDD77A /* sbzl.app */,
+				3F9696F81B3455A200CDD77A /* sbzlTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +90,7 @@
 				3F9696EF1B3455A200CDD77A /* Images.xcassets */,
 				3F9696F11B3455A200CDD77A /* LaunchScreen.xib */,
 				3F9696E61B3455A200CDD77A /* Supporting Files */,
+				9280278F1DDF417F0075CE98 /* readme.md */,
 			);
 			path = "Simple Universal Webview App";
 			sourceTree = "<group>";
@@ -115,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F9696E21B3455A200CDD77A /* Simple Universal Webview App */ = {
+		3F9696E21B3455A200CDD77A /* sbzl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F9697021B3455A200CDD77A /* Build configuration list for PBXNativeTarget "Simple Universal Webview App" */;
+			buildConfigurationList = 3F9697021B3455A200CDD77A /* Build configuration list for PBXNativeTarget "sbzl" */;
 			buildPhases = (
 				3F9696DF1B3455A200CDD77A /* Sources */,
 				3F9696E01B3455A200CDD77A /* Frameworks */,
@@ -127,14 +134,14 @@
 			);
 			dependencies = (
 			);
-			name = "Simple Universal Webview App";
+			name = sbzl;
 			productName = "Simple Universal Webview App";
-			productReference = 3F9696E31B3455A200CDD77A /* Simple Universal Webview App.app */;
+			productReference = 3F9696E31B3455A200CDD77A /* sbzl.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3F9696F71B3455A200CDD77A /* Simple Universal Webview AppTests */ = {
+		3F9696F71B3455A200CDD77A /* sbzlTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F9697051B3455A200CDD77A /* Build configuration list for PBXNativeTarget "Simple Universal Webview AppTests" */;
+			buildConfigurationList = 3F9697051B3455A200CDD77A /* Build configuration list for PBXNativeTarget "sbzlTests" */;
 			buildPhases = (
 				3F9696F41B3455A200CDD77A /* Sources */,
 				3F9696F51B3455A200CDD77A /* Frameworks */,
@@ -145,9 +152,9 @@
 			dependencies = (
 				3F9696FA1B3455A200CDD77A /* PBXTargetDependency */,
 			);
-			name = "Simple Universal Webview AppTests";
+			name = sbzlTests;
 			productName = "Simple Universal Webview AppTests";
-			productReference = 3F9696F81B3455A200CDD77A /* Simple Universal Webview AppTests.xctest */;
+			productReference = 3F9696F81B3455A200CDD77A /* sbzlTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -156,11 +163,14 @@
 		3F9696DB1B3455A200CDD77A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Freeman Industries";
 				TargetAttributes = {
 					3F9696E21B3455A200CDD77A = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 63S9JGX67Z;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
 					};
 					3F9696F71B3455A200CDD77A = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -181,8 +191,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F9696E21B3455A200CDD77A /* Simple Universal Webview App */,
-				3F9696F71B3455A200CDD77A /* Simple Universal Webview AppTests */,
+				3F9696E21B3455A200CDD77A /* sbzl */,
+				3F9696F71B3455A200CDD77A /* sbzlTests */,
 			);
 		};
 /* End PBXProject section */
@@ -214,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F9696EB1B3455A200CDD77A /* ViewController.swift in Sources */,
+				928027901DDF417F0075CE98 /* readme.md in Sources */,
 				3F9696E91B3455A200CDD77A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,7 +241,7 @@
 /* Begin PBXTargetDependency section */
 		3F9696FA1B3455A200CDD77A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3F9696E21B3455A200CDD77A /* Simple Universal Webview App */;
+			target = 3F9696E21B3455A200CDD77A /* sbzl */;
 			targetProxy = 3F9696F91B3455A200CDD77A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -240,6 +251,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3F9696ED1B3455A200CDD77A /* Base */,
+				928027A11DE08BAA0075CE98 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -248,6 +260,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3F9696F21B3455A200CDD77A /* Base */,
+				928027A21DE08BAB0075CE98 /* zh-Hans */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -259,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -268,14 +282,17 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -291,7 +308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -304,6 +321,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -313,10 +331,13 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -330,9 +351,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -342,9 +365,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 63S9JGX67Z;
 				INFOPLIST_FILE = "Simple Universal Webview App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hnzhengbu.sbzl2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -352,9 +382,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 63S9JGX67Z;
 				INFOPLIST_FILE = "Simple Universal Webview App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hnzhengbu.sbzl2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -372,6 +409,7 @@
 				);
 				INFOPLIST_FILE = "Simple Universal Webview AppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freeman.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Universal Webview App.app/Simple Universal Webview App";
 			};
@@ -387,6 +425,7 @@
 				);
 				INFOPLIST_FILE = "Simple Universal Webview AppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freeman.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Universal Webview App.app/Simple Universal Webview App";
 			};
@@ -404,7 +443,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F9697021B3455A200CDD77A /* Build configuration list for PBXNativeTarget "Simple Universal Webview App" */ = {
+		3F9697021B3455A200CDD77A /* Build configuration list for PBXNativeTarget "sbzl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F9697031B3455A200CDD77A /* Debug */,
@@ -413,7 +452,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F9697051B3455A200CDD77A /* Build configuration list for PBXNativeTarget "Simple Universal Webview AppTests" */ = {
+		3F9697051B3455A200CDD77A /* Build configuration list for PBXNativeTarget "sbzlTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F9697061B3455A200CDD77A /* Debug */,
